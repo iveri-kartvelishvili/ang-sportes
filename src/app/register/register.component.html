@@ -1,0 +1,19 @@
+<div class="form-group m-auto col-md-6 ">
+<input 
+[(ngModel)]="myp.name"
+type="text" placeholder="name" class="form-control mt-2">
+<input 
+[(ngModel)]="myp.lastname"
+type="text" placeholder="lastname" class="form-control mt-2">
+<select
+[(ngModel)]="myp.sport"
+name="" id="" class="form-select mt-2">
+    <option value="football">football</option>
+    <option value="rugby">rugby</option>
+    <option value="basketball">basketball</option>
+</select>
+<button 
+(click)="onSaveClick()"
+class="col-md-4 d-block m m-auto btn btn-dark mt-2">Save</button>
+</div>
+<h6>{{info}}</h6>

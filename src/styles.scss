@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+td,th{
+    width: 100px;
+    border:1px solid black !important;
+    padding: 8px;
+}
+table{
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+}
